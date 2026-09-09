@@ -1,0 +1,262 @@
+{
+  "title": "Northwind Operations — 13-week cashflow",
+  "currency": "USD",
+  "startingCash": 85000,
+  "cashThreshold": 50000,
+  "weekConvention": {
+    "weekStartsOn": "monday",
+    "firstWeekStart": "2026-01-05",
+    "lastWeekEnd": "2026-04-05",
+    "timezone": "America/New_York",
+    "runningCashPoint": "end-of-week",
+    "notes": "Each week is Monday–Sunday. Dates are YYYY-MM-DD calendar dates (no timestamps). Running cash is the position after that week's inflows and outflows."
+  },
+  "inflowCategories": [
+    "collections",
+    "new_sales",
+    "other_income"
+  ],
+  "outflowCategories": [
+    "payroll",
+    "rent",
+    "tax",
+    "vendors",
+    "utilities"
+  ],
+  "weeks": [
+    {
+      "week": 1,
+      "label": "Week 1",
+      "startDate": "2026-01-05",
+      "endDate": "2026-01-11",
+      "inflows": {
+        "collections": 42000,
+        "new_sales": 8500,
+        "other_income": 500
+      },
+      "outflows": {
+        "payroll": 28000,
+        "rent": 0,
+        "tax": 0,
+        "vendors": 6200,
+        "utilities": 800
+      }
+    },
+    {
+      "week": 2,
+      "label": "Week 2",
+      "startDate": "2026-01-12",
+      "endDate": "2026-01-18",
+      "inflows": {
+        "collections": 38000,
+        "new_sales": 12000,
+        "other_income": 0
+      },
+      "outflows": {
+        "payroll": 28000,
+        "rent": 0,
+        "tax": 0,
+        "vendors": 4500,
+        "utilities": 0
+      }
+    },
+    {
+      "week": 3,
+      "label": "Week 3",
+      "startDate": "2026-01-19",
+      "endDate": "2026-01-25",
+      "inflows": {
+        "collections": 35000,
+        "new_sales": 6000,
+        "other_income": 200
+      },
+      "outflows": {
+        "payroll": 28000,
+        "rent": 12000,
+        "tax": 0,
+        "vendors": 8000,
+        "utilities": 1100
+      }
+    },
+    {
+      "week": 4,
+      "label": "Week 4",
+      "startDate": "2026-01-26",
+      "endDate": "2026-02-01",
+      "inflows": {
+        "collections": 28000,
+        "new_sales": 4000,
+        "other_income": 0
+      },
+      "outflows": {
+        "payroll": 28000,
+        "rent": 0,
+        "tax": 22000,
+        "vendors": 5000,
+        "utilities": 0
+      }
+    },
+    {
+      "week": 5,
+      "label": "Week 5",
+      "startDate": "2026-02-02",
+      "endDate": "2026-02-08",
+      "inflows": {
+        "collections": 45000,
+        "new_sales": 9000,
+        "other_income": 1500
+      },
+      "outflows": {
+        "payroll": 28000,
+        "rent": 0,
+        "tax": 0,
+        "vendors": 7000,
+        "utilities": 900
+      }
+    },
+    {
+      "week": 6,
+      "label": "Week 6",
+      "startDate": "2026-02-09",
+      "endDate": "2026-02-15",
+      "inflows": {
+        "collections": 22000,
+        "new_sales": 3000,
+        "other_income": 0
+      },
+      "outflows": {
+        "payroll": 28000,
+        "rent": 12000,
+        "tax": 0,
+        "vendors": 4000,
+        "utilities": 0
+      }
+    },
+    {
+      "week": 7,
+      "label": "Week 7",
+      "startDate": "2026-02-16",
+      "endDate": "2026-02-22",
+      "inflows": {
+        "collections": 18000,
+        "new_sales": 2000,
+        "other_income": 0
+      },
+      "outflows": {
+        "payroll": 28000,
+        "rent": 0,
+        "tax": 8000,
+        "vendors": 9000,
+        "utilities": 1200
+      }
+    },
+    {
+      "week": 8,
+      "label": "Week 8",
+      "startDate": "2026-02-23",
+      "endDate": "2026-03-01",
+      "inflows": {
+        "collections": 15000,
+        "new_sales": 1000,
+        "other_income": 0
+      },
+      "outflows": {
+        "payroll": 28000,
+        "rent": 0,
+        "tax": 0,
+        "vendors": 3500,
+        "utilities": 0
+      }
+    },
+    {
+      "week": 9,
+      "label": "Week 9",
+      "startDate": "2026-03-02",
+      "endDate": "2026-03-08",
+      "inflows": {
+        "collections": 12000,
+        "new_sales": 500,
+        "other_income": 0
+      },
+      "outflows": {
+        "payroll": 28000,
+        "rent": 12000,
+        "tax": 0,
+        "vendors": 2000,
+        "utilities": 800
+      }
+    },
+    {
+      "week": 10,
+      "label": "Week 10",
+      "startDate": "2026-03-09",
+      "endDate": "2026-03-15",
+      "inflows": {
+        "collections": 55000,
+        "new_sales": 15000,
+        "other_income": 3000
+      },
+      "outflows": {
+        "payroll": 28000,
+        "rent": 0,
+        "tax": 0,
+        "vendors": 6000,
+        "utilities": 0
+      }
+    },
+    {
+      "week": 11,
+      "label": "Week 11",
+      "startDate": "2026-03-16",
+      "endDate": "2026-03-22",
+      "inflows": {
+        "collections": 48000,
+        "new_sales": 11000,
+        "other_income": 800
+      },
+      "outflows": {
+        "payroll": 28000,
+        "rent": 0,
+        "tax": 5000,
+        "vendors": 4500,
+        "utilities": 1000
+      }
+    },
+    {
+      "week": 12,
+      "label": "Week 12",
+      "startDate": "2026-03-23",
+      "endDate": "2026-03-29",
+      "inflows": {
+        "collections": 40000,
+        "new_sales": 8000,
+        "other_income": 200
+      },
+      "outflows": {
+        "payroll": 28000,
+        "rent": 12000,
+        "tax": 0,
+        "vendors": 5500,
+        "utilities": 0
+      }
+    },
+    {
+      "week": 13,
+      "label": "Week 13",
+      "startDate": "2026-03-30",
+      "endDate": "2026-04-05",
+      "inflows": {
+        "collections": 52000,
+        "new_sales": 14000,
+        "other_income": 1000
+      },
+      "outflows": {
+        "payroll": 28000,
+        "rent": 0,
+        "tax": 0,
+        "vendors": 7000,
+        "utilities": 900
+      }
+    }
+  ]
+}
