@@ -1,0 +1,22 @@
+{
+  "startingCash": 20000,
+  "cashThreshold": 15000,
+  "weeks": [
+    {
+      "week": 1,
+      "label": "Week 1",
+      "startDate": "2026-01-05",
+      "endDate": "2026-01-11",
+      "inflows": { "collections": 1000 },
+      "outflows": { "payroll": 8000 }
+    },
+    {
+      "week": 2,
+      "label": "Week 2",
+      "startDate": "2026-01-12",
+      "endDate": "2026-01-18",
+      "inflows": { "collections": 500 },
+      "outflows": { "rent": 9000 }
+    }
+  ]
+}

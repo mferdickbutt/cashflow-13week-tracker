@@ -1,0 +1,24 @@
+{
+  "startingCash": 12000,
+  "cashThreshold": 10000,
+  "weeks": [
+    {
+      "week": 1,
+      "label": "Week 1",
+      "inflows": { "collections": 3000 },
+      "outflows": { "payroll": 1000 }
+    },
+    {
+      "week": 2,
+      "label": "Week 2",
+      "inflows": { "collections": 500 },
+      "outflows": { "tax": 8000 }
+    },
+    {
+      "week": 3,
+      "label": "Week 3",
+      "inflows": { "collections": 20000 },
+      "outflows": { "rent": 1000 }
+    }
+  ]
+}
